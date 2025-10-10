@@ -13,7 +13,7 @@ local_image = "images/index.webp"
 
 ## About
 
-Odisha AI Conference 2025 is the sixth international congregation of Odias in AI/ML, academicians, policymakers, linguists, business executives, investors, entrepreneurs and those working towards positively intervening in people’s lives through AI.
+Odisha AI Conference 2025 is the sixth annual international congregation of Odias in AI/ML, academicians, policymakers, linguists, business executives, investors, entrepreneurs and those working towards positively intervening in people’s lives through AI.
 
 **Conference Date:** 11th October, 2025
 **Time:** From the first light of the day to the last.
