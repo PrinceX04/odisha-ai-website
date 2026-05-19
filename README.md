@@ -1,16 +1,96 @@
-# React + Vite
+# Odisha AI Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for the **Odisha AI Website**. This portal serves as the digital home for the Odisha AI community—a global movement of educators, researchers, policy makers, and developers dedicated to democratizing AI education and fostering an AI-first ecosystem for Odisha and the global Odia diaspora.
 
-Currently, two official plugins are available:
+## 🌐 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Odisha AI website is a modern, highly responsive, and beautifully designed web application built to showcase:
+- **Conferences & Summits**: Tracking our annual international and regional AI conferences (e.g., Odisha AI Conference 2026).
+- **Initiatives**: Highlighting ongoing programs like the Rathathon (perpetual hackathon), AI Foundation Series, and Odia GenAI research.
+- **Resources**: Centralized links to vision documents, the AI glossary, and open-source Odia AI models.
+- **Community Blogs**: Updates, tutorials, and community chapter inaugurations.
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Premium UI/UX Design**: Features a dark-mode-first aesthetic with glassmorphism, dynamic gradients, subtle micro-animations, and modern typography (Space Grotesk & Syne).
+- **Bilingual Support (i18n)**: Fully integrated localization framework offering seamless switching between **English** and **Odia**.
+- **Dynamic Content Routing**: Fast and smooth client-side routing.
+- **Sponsorship Integration**: Prominent visibility modules for community and corporate partners.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: [React 18](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [React Router v6](https://reactrouter.com/)
+- **Styling**: Vanilla CSS with comprehensive CSS Variables & custom animations (`index.css`)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/odisha-ml/website.git
+   cd website
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5176](http://localhost:5176) (or the port provided in your terminal) to view the app in the browser.
+
+### Build for Production
+
+To create an optimized production build:
+```bash
+npm run build
+```
+The bundled files will be output to the `dist/` directory, ready to be deployed.
+
+## 📁 Project Structure
+
+```text
+odisha-ai-website/
+├── static/              # Static assets (images, docs). Note: Vite is configured to use 'static' as publicDir
+├── src/
+│   ├── components/      # Reusable UI components (Navbar, Footer, Sponsorship, etc.)
+│   ├── pages/           # Route-specific page components (Home, Events, Blogs, etc.)
+│   ├── utils/           # Utilities, including the LanguageContext for i18n
+│   ├── App.jsx          # Main application router and layout wrapper
+│   ├── index.css        # Global CSS, design tokens, and utility classes
+│   └── main.jsx         # React application entry point
+├── vite.config.js       # Vite build configuration
+└── package.json         # Project dependencies and scripts
+```
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Whether you want to fix a bug, add a new feature, translate content into Odia, or improve the UI, your help is appreciated.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📧 Contact & Community
+
+- **Join us on WhatsApp**: [Odisha AI Community](https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t)
+- **Email**: info@odishaai.org
+- **Twitter / X**: [@odias_in_ai](https://twitter.com/odias_in_ai)
+- **LinkedIn**: [Odisha AI](https://www.linkedin.com/company/75029211)
+
+---
+*Empowering the Odia ecosystem for success in an AI-first era.*
